@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Wowzawebrtcplayerjmu Wowza WebRTC Player example</title>
+
+            <script src="src/wowzawebrtcplayerjmu.js"></script>
+
+    </head>
+    <body>
+        <video id="ticon-webrtc-wowza-player" autoplay playsinline muted controls></video>
+    </body>
+
+    <script>
+        let options = {
+            applicationName: "webrtcTestLive",
+            streamName: "screenshare",
+            wssUrl: "wss://61dbe9dc0dcd8.streamlock.net/webrtc-session.json",
+            videoElementId: "ticon-webrtc-wowza-player",
+        };
+        let ticonWowZaPlayer = new Wowzawebrtcplayerjmu( options );
+        ticonWowZaPlayer.init();
+
+    </script>
+</html>
