@@ -24,8 +24,8 @@
             wssUrl: "websocket url", //wowza server websocket url
             videoElementId: "video_element_id", //A html5 video element's id in which the video will be played
         };
-        let ticonWowZaPlayer = new Wowzawebrtcplayerjmu( options ); //instantiate the Wowzawebrtcplayerjmu class
-        ticonWowZaPlayer.init(); //initialize the Wowzawebrtcplayerjmu class
+        let jmuWowZaPlayer = new Wowzawebrtcplayerjmu( options ); //instantiate the Wowzawebrtcplayerjmu class
+        jmuWowZaPlayer.init(); //initialize the Wowzawebrtcplayerjmu class
 
     </script>
 </html>
