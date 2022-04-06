@@ -3,6 +3,21 @@
 ## Example
 
 ```
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="UTF-8" />
+        <title>Wowzawebrtcplayerjmu Wowza WebRTC Player example</title>
+
+        <script src="wowzawebrtcplayerjmu.js"></script> // include palyer
+
+    </head>
+    <body>
+        <video id="ticon-webrtc-wowza-player" autoplay playsinline muted controls></video>
+    </body>
+
+    <script>
+
          let options = {
             applicationName: "application name", //wowza application name
             streamName: "stream name", //wowza stream name
@@ -11,4 +26,7 @@
         };
         let ticonWowZaPlayer = new Wowzawebrtcplayerjmu( options ); //instantiate the Wowzawebrtcplayerjmu class
         ticonWowZaPlayer.init(); //initialize the Wowzawebrtcplayerjmu class
+
+    </script>
+</html>
 ```
