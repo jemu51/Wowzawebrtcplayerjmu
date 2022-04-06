@@ -9,11 +9,11 @@
         <meta charset="UTF-8" />
         <title>Wowzawebrtcplayerjmu Wowza WebRTC Player example</title>
 
-        <script src="wowzawebrtcplayerjmu.js"></script> // include palyer
+        <script src="https://cdn.jsdelivr.net/gh/jemu51/Wowzawebrtcplayerjmu/src/wowzawebrtcplayerjmu.js"></script> // include palyer
 
     </head>
     <body>
-        <video id="ticon-webrtc-wowza-player" autoplay playsinline muted controls></video>
+        <video id="video_element_id" autoplay playsinline muted controls></video>
     </body>
 
     <script>
