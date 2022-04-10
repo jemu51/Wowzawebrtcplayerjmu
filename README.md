@@ -25,8 +25,17 @@
             videoElementId: "video_element_id", //A html5 video element's id in which the video will be played
         };
         let jmuWowZaPlayer = new Wowzawebrtcplayerjmu( options ); //instantiate the Wowzawebrtcplayerjmu class
-        jmuWowZaPlayer.init(); //initialize the Wowzawebrtcplayerjmu class
+        jmuWowZaPlayer.init(); // play the video stream on the html5 video element ("video_element_id")
 
+        //To stop and replay same stream stop and reset the player first
+
+        //To stop
+        // if (jmuWowZaPlayer.peerConnection) {
+        //     jmuWowZaPlayer.stop();    //stop the player
+        //     jmuWowZaPlayer = undefined;   //reset the player
+        // }
+        //Then init angain
+        //jmuWowZaPlayer.init();
     </script>
 </html>
 ```
